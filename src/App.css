@@ -1,14 +1,37 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.fa-plus-circle{
+  color: green;
+  cursor: pointer;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.fas{
+  font-size: 3vh;
+  margin: 1vh;
 }
 
-.App-header {
+.fa-minus-circle{
+  cursor: pointer;
+  color: red;
+}
+
+
+/* #boxName{
+  margin: 3vw;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  border-radius: 15px;
+} */
+
+.boxes{
+  margin-top: 10vw;
+ }
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,17 +40,171 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.users{
+  width: 100px;    
+  height: 100px;
+  display: inline-block;
 }
+
+.movie{
+  background-repeat: no-repeat;
+  height: 22vw;
+  width: 19vw;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: 21vw 22vw;
+  text-align: right;
+}
+.movies{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+#home-container{
+  text-align: center;
+}
+ 
+
+
+ 
+
+ 
+ body{
+  background-color: black;
+  color: white
+ }
+ 
+ .App{
+  margin-top: 5px
+ }
+ 
+ #boxName{
+   margin: 3vw;
+   border: 1px solid rgb(0, 0, 0);
+   padding: 5vw;
+   padding-left: 7vw;
+   padding-right: 7vw;
+   border-radius: 15px;
+ }
+ 
+ 
+ 
+ /* .boxes{
+  margin-top: 10vw;
+ }
+ 
+ .boxes a{
+  text-decoration: none;
+  color: black
+ } */
+ 
+ .movies{
+  grid-area: c;
+  display: grid;
+  width: 92%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6vh;
+  margin-top: 8vw;
+ 
+ }
+ 
+ /* .rentMovies{
+ 
+  display: grid;
+  width: 92%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6vh;
+  justify-self: center;
+ } */
+ 
+ /* .movieBox{
+  background-repeat: no-repeat;
+  height: 22vw;
+  width: 19vw;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: 21vw 22vw;
+  text-align: right;
+ } */
+ 
+ 
+ 
+ 
+ .homeBar{
+    margin-left: 29px;
+ }
+
+ .MovieDetail{
+   text-align: center;
+ }
+
+ 
+ #logo{
+  float: right;
+  margin-right: 10px;
+  color: red;
+  font-weight: bold
+ }
+ 
+ .catalogSection{
+  display: grid;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+    grid-template-rows: 1fr, 1fr, 5fr;
+    grid-template-areas:
+    "i"
+    "h"
+    "c";
+ }
+ 
+ .inputAndBudjet{
+  grid-area: i;
+ }
+ input{
+ 
+  margin-top: 3vw;
+  background-color: black;
+  color: white;
+  height: 3vw;
+  width: 40vw;
+  border-radius: 33px;
+  text-indent: 21px;
+  margin-right: auto;
+  margin-left: auto;
+ 
+ }
+ 
+ #budget{
+  margin-left: 15vw
+ }
+ 
+ .header{
+  text-align: left;
+  margin-left: 5.5vw;
+  margin-top: 4vw;
+  grid-area: h;
+  margin-bottom: 18px;
+ }
+
+ .movieSection{
+   display: grid;
+   justify-self: center;
+ }
